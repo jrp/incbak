@@ -1,0 +1,10 @@
+This is a project writen to handle incremental backups.
+
+It uses rSync and linux hard links to maintain a full set of directories on a local machine of a selected parts of a remote 
+machine.
+
+This project is very much paratially complete -- basic functionality can be considered at beta standard, but is by no means 
+deployable without a great deal of tinkering.
+
+The plan is to turn it into an hourly incemental backup system with an exponential backoff system on backup dleetions, so as 
+to reduce the clutter.
